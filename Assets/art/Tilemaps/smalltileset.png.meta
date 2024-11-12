@@ -1,10 +1,7 @@
 fileFormatVersion: 2
-guid: f7b06136cdbff9e4295b49ac4b5bb927
+guid: 888ef3d822b7e1c43bbea38a65b9570a
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -393504167359520806
-    second: Swamp Backdrop_0
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -42,7 +39,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -100,23 +97,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Swamp Backdrop_0
+      name: smalltileset_ridge_1
       rect:
         serializedVersion: 2
-        x: 0
+        x: 17
         y: 0
-        width: 1060
-        height: 400
+        width: 14
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: adf56ee6b0ef98af0800000000000000
-      internalID: -393504167359520806
+      spriteID: f90926b8268b7d94b94abb0ea9f9ca18
+      internalID: -429772172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smalltileset_ridge_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1084cc11323e374cb2b56c3a3c3092a
+      internalID: -1620879951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smalltileset_block
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 38
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20826b673ef925c44abc1b2b34a3badd
+      internalID: -571372722
       vertices: []
       indices: 
       edges: []
@@ -125,7 +166,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2261f964893879c4383f10ea2b69db82
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +176,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Swamp Backdrop_0: -393504167359520806
+      smalltileset_block: -571372722
+      smalltileset_ridge_1: -429772172
+      smalltileset_ridge_2: -1620879951
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

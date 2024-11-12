@@ -1,10 +1,7 @@
 fileFormatVersion: 2
-guid: f7b06136cdbff9e4295b49ac4b5bb927
+guid: b8673f2801b0acf4fbf6cd582a8b80d3
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -393504167359520806
-    second: Swamp Backdrop_0
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -42,7 +39,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -98,29 +95,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Swamp Backdrop_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1060
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: adf56ee6b0ef98af0800000000000000
-      internalID: -393504167359520806
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     customData: 
     physicsShape: []
@@ -134,8 +109,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Swamp Backdrop_0: -393504167359520806
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
