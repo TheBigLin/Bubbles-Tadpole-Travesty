@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NicksPlayerMovementScript : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     private float horizontal;
     private float speed = 4f;
