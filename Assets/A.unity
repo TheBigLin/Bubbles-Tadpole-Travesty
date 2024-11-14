@@ -7345,7 +7345,7 @@ GameObject:
   - component: {fileID: 1993980715}
   - component: {fileID: 1993980719}
   - component: {fileID: 1993980718}
-  - component: {fileID: 1993980717}
+  - component: {fileID: 1993980720}
   m_Layer: 0
   m_Name: Bubbles
   m_TagString: Untagged
@@ -7417,14 +7417,58 @@ Transform:
   m_GameObject: {fileID: 1993980714}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.4084, y: 0.4096, z: 0}
+  m_LocalPosition: {x: -5.4118, y: 0.4341, z: 0}
   m_LocalScale: {x: 3.3300424, y: 3.3300424, z: 3.3300424}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &1993980717
-CapsuleCollider2D:
+--- !u!50 &1993980718
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993980714}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 1
+  m_SleepingMode: 0
+  m_CollisionDetection: 1
+  m_Constraints: 4
+--- !u!114 &1993980719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993980714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd71dd80ae769794da6e82465422cddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 1993980718}
+  groundCheck: {fileID: 0}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!60 &1993980720
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7458,52 +7502,37 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.2887463, y: 0.31729165}
-  m_Direction: 0
---- !u!50 &1993980718
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1993980714}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 1
-  m_SleepingMode: 0
-  m_CollisionDetection: 1
-  m_Constraints: 0
---- !u!114 &1993980719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1993980714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd71dd80ae769794da6e82465422cddc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 1993980718}
-  groundCheck: {fileID: 0}
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 0
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.48, y: 0.48}
+    newSize: {x: 0.48, y: 0.48}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.119182535, y: 0.1162087}
+      - {x: 0.061437435, y: 0.11402279}
+      - {x: 0.030459594, y: 0.10510322}
+      - {x: -0.013671623, y: 0.11410809}
+      - {x: -0.070232235, y: 0.1132556}
+      - {x: -0.1521565, y: 0.12290001}
+      - {x: -0.14546525, y: -0.0699261}
+      - {x: -0.13035548, y: -0.09212249}
+      - {x: -0.09224894, y: -0.09297798}
+      - {x: -0.08222203, y: -0.112668045}
+      - {x: -0.082900085, y: -0.12992609}
+      - {x: -0.034981668, y: -0.1309808}
+      - {x: 0.11371742, y: -0.13066955}
+      - {x: 0.11174783, y: -0.11174786}
+      - {x: 0.11520649, y: -0.042055573}
+      - {x: 0.10548674, y: -0.009535199}
+      - {x: 0.12304028, y: 0.017602341}
+      - {x: 0.12472165, y: 0.04074349}
+      - {x: 0.12302939, y: 0.052673943}
+  m_UseDelaunayMesh: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
