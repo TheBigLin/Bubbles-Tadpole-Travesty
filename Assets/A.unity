@@ -103984,6 +103984,7 @@ GameObject:
   - component: {fileID: 1993980719}
   - component: {fileID: 1993980718}
   - component: {fileID: 1993980721}
+  - component: {fileID: 1993980722}
   m_Layer: 0
   m_Name: Bubbles
   m_TagString: Untagged
@@ -104035,12 +104036,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: eb4f2dae27f3a214eb09c57c79b778f7, type: 3}
+  m_Sprite: {fileID: -7902286031573443441, guid: 791938f0dbab93940b990fd045f1b647, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.48, y: 0.48}
+  m_Size: {x: 0.3, y: 0.27}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -104144,8 +104145,8 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.48, y: 0.48}
-    newSize: {x: 0.48, y: 0.48}
+    oldSize: {x: 0.3, y: 0.28}
+    newSize: {x: 0.3, y: 0.27}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -104180,6 +104181,28 @@ PolygonCollider2D:
       - {x: 0.117003284, y: 0.0364555}
       - {x: 0.113595724, y: 0.051816344}
   m_UseDelaunayMesh: 0
+--- !u!95 &1993980722
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993980714}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0bd440c0ccad1ff4786c64983ee9e30b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2109653228
 GameObject:
   m_ObjectHideFlags: 0
