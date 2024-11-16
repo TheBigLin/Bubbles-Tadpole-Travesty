@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fucking_frog_0: 822067958813124025
+      fucking_frog_1: 6953353872579719585
+      fucking_frog_2: 1656336667292593636
+      fucking_frog_3: -7902286031573443441
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
