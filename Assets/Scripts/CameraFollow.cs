@@ -7,7 +7,7 @@ public class CameraFollow : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.Find("Bubbles"); // The player
+        player = GameObject.Find("Bubbles"); 
     }
 
     // Update is called once per frame
