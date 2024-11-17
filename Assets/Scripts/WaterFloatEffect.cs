@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class WaterFloatEffect : MonoBehaviour
 {
@@ -28,6 +29,7 @@ public class WaterFloatEffect : MonoBehaviour
         {
             isInWater = true;
             originalY = transform.position.y; // Update the original position when entering water
+            transform.position = new Vector3(transform.position.x, originalY, transform.position.z);
         }
     }
 
@@ -35,6 +37,7 @@ public class WaterFloatEffect : MonoBehaviour
     {
         if (collision.CompareTag("Water"))
         {
+            transform.position = new Vector3(transform.position.x, originalY, transform.position.z);
             isInWater = false;
         }
     }
