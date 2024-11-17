@@ -75,13 +75,6 @@ public class GrappleMechanic : MonoBehaviour
         }
     }
 
-    void FixedUpdate()
-    {
-        if (!isDragging && rb.velocity != Vector2.zero)
-        {
-            ApplyGravity();
-        }
-    }
 
     void DragProjectile(Vector3 direction)
     {
@@ -90,7 +83,13 @@ public class GrappleMechanic : MonoBehaviour
         dragPosition = Vector3.ClampMagnitude(dragPosition - anchor.position, maxDragDistance) + anchor.position;
         projectile.position = dragPosition;
     }
-
+    void FixedUpdate()
+    {
+        if (!isDragging && rb.velocity != Vector2.zero)
+        {
+            ApplyGravity();
+        }
+    }
     void LaunchProjectile()
     {
         if (isDragging)
