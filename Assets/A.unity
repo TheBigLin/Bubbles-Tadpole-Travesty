@@ -106472,7 +106472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e6d9f979716a7245a700ffb87e44b93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floatStrength: 0.5
+  floatStrength: 1
   floatSpeed: 2
 --- !u!114 &1993980729
 MonoBehaviour:
