@@ -106069,6 +106069,7 @@ GameObject:
   - component: {fileID: 1993980718}
   - component: {fileID: 1993980721}
   - component: {fileID: 1993980722}
+  - component: {fileID: 1993980728}
   - component: {fileID: 1993980723}
   - component: {fileID: 1993980725}
   - component: {fileID: 1993980724}
@@ -106191,6 +106192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd71dd80ae769794da6e82465422cddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
   rb: {fileID: 1993980718}
   groundCheck: {fileID: 562378826}
   groundLayer:
@@ -106386,6 +106388,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5450be884d785644cbf2ceeb0fb7b42f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1993980728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993980714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 334cea9ca7726454a8b480b72375a095, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2081460123

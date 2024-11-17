@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public Animator animator;
     private float horizontal;
     private float speed = 10f;
     private float jumpingPower = 18f;
