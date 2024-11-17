@@ -106483,7 +106483,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1993980714}
   m_Enabled: 1
   m_EditorHideFlags: 0
-<<<<<<< Updated upstream
   m_Script: {fileID: 11500000, guid: ef3bdf32d19aaf94b873411d073bbf8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -106636,11 +106635,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.25812942, y: 0.0128178}
   m_EdgeRadius: 0
-=======
-  m_Script: {fileID: 11500000, guid: 9c3c9cadfb406e243bc22cec762cbb94, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
->>>>>>> Stashed changes
 --- !u!1 &2081460123
 GameObject:
   m_ObjectHideFlags: 0
