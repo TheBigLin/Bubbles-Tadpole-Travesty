@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd9093ab0e821f0459360177ee6d9bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: 1
+  Respawn: 0
 --- !u!1 &161631500
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,6 +234,10 @@ PrefabInstance:
     - target: {fileID: 4966381351372834678, guid: 00b60b3b00ab09944948a2ba971c9829, type: 3}
       propertyPath: m_Name
       value: spikes_0 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5897808781886473630, guid: 00b60b3b00ab09944948a2ba971c9829, type: 3}
+      propertyPath: Respawn
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7751587026049723355, guid: 00b60b3b00ab09944948a2ba971c9829, type: 3}
       propertyPath: m_LocalScale.x
@@ -584,6 +588,10 @@ PrefabInstance:
     - target: {fileID: 4966381351372834678, guid: 00b60b3b00ab09944948a2ba971c9829, type: 3}
       propertyPath: m_Name
       value: spikes_0 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5897808781886473630, guid: 00b60b3b00ab09944948a2ba971c9829, type: 3}
+      propertyPath: Respawn
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7751587026049723355, guid: 00b60b3b00ab09944948a2ba971c9829, type: 3}
       propertyPath: m_LocalScale.x
@@ -105652,7 +105660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd9093ab0e821f0459360177ee6d9bef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Respawn: 1
+  Respawn: 0
 --- !u!1 &1956457424
 GameObject:
   m_ObjectHideFlags: 0
@@ -106619,7 +106627,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993980714}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 0bd440c0ccad1ff4786c64983ee9e30b, type: 2}
   m_CullingMode: 0
