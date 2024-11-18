@@ -106392,7 +106392,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 396.70004, y: 334.1}
+  m_AnchoredPosition: {x: 393.9, y: 334.1}
   m_SizeDelta: {x: 798.00006, y: 669.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1993980714
@@ -106948,6 +106948,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'E to activate grapple
+
+    A to pull yourself back
 
 '
   m_isRightToLeft: 0
