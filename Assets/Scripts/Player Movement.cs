@@ -7,6 +7,11 @@ public class PlayerMovement : MonoBehaviour
     private float jumpingPower = 18f;
     private bool isFacingRight = true;
 
+    //SOUND
+    public AudioSource audioSource;
+    public AudioClip clip;
+    public float volume = 0.5f;
+
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
@@ -19,11 +24,14 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+            //AUDIO_HERE_
+            //audioSource.PlayOneShot(clip, 0.8f);
         }
 
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
         {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+            audioSource.PlayOneShot(clip, 0.8f);
         }
 
         Flip();
@@ -32,6 +40,15 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            audioSource.PlayDelayed(0.1f);
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            audioSource.PlayOneShot(clip, 0.1f);
+        }
     }
 
     private bool IsGrounded()
