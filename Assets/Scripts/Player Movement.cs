@@ -10,11 +10,18 @@ public class PlayerMovement : MonoBehaviour
     //SOUND
     public AudioSource audioSource;
     public AudioClip clip;
+    public AudioClip BackgroundClip;
+
     public float volume = 0.5f;
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
+
+    void Start() 
+    {
+        audioSource.PlayOneShot(BackgroundClip, 0.2f);
+    }
 
     // Update is called once per frame
     void Update()
