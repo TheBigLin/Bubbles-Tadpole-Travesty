@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 3c6376c40525d2243b48f14bd43ec0c6
+guid: f35527202b2dc36478281dd5007b4101
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6017563528479810728
-    second: top right_0
+      213: -5825497307949095922
+    second: FULL HUD FOR GAME PAUSE_0
+  - first:
+      213: 7543424042548450222
+    second: FULL HUD FOR GAME PAUSE_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: top right_0
+      name: FULL HUD FOR GAME PAUSE_0
       rect:
         serializedVersion: 2
-        x: 37
-        y: 34
-        width: 18
-        height: 21
+        x: 23
+        y: 68
+        width: 54
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85b5d9f6ad15d7ca0800000000000000
-      internalID: -6017563528479810728
+      spriteID: e0423bf201da72fa0800000000000000
+      internalID: -5825497307949095922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FULL HUD FOR GAME PAUSE_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 43
+        width: 54
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3dd3e2330afa860800000000000000
+      internalID: 7543424042548450222
       vertices: []
       indices: 
       edges: []
@@ -134,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FULL HUD FOR GAME PAUSE_0: -5825497307949095922
+      FULL HUD FOR GAME PAUSE_1: 7543424042548450222
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
