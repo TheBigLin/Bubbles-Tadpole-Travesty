@@ -12,6 +12,14 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
+<<<<<<< Updated upstream
+=======
+    void Start() 
+    {
+        audioSource.PlayOneShot(BackgroundClip, 0.1f);
+    }
+
+>>>>>>> Stashed changes
     // Update is called once per frame
     void Update()
     {
