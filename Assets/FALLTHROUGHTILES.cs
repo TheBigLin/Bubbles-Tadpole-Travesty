@@ -14,8 +14,8 @@ public class FALLTHROUGHTILES : MonoBehaviour
             playerOnTile = true;
             timeforfall += Time.deltaTime; // Increase the timer
 
-          
-            if (timeforfall >= FallThroughNow) ;
+
+            if (timeforfall >= playertimer);
             {
                 FallThroughNow();
             }
