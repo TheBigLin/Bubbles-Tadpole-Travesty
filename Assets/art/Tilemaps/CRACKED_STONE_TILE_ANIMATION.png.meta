@@ -49,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -260,7 +260,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CRACKED_STONE_TILE_ANIMATION_0: 3794762577935440899
+      CRACKED_STONE_TILE_ANIMATION_1: -8713614777500873694
+      CRACKED_STONE_TILE_ANIMATION_2: 2100818117324260639
+      CRACKED_STONE_TILE_ANIMATION_3: -8275408922378116249
+      CRACKED_STONE_TILE_ANIMATION_4: 6496038053990001848
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
