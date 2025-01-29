@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/3-Playable-Data/UI-UX-Assets/Scenes-Development/UI-UX-D1-Menu.unity
     guid: 1396310c85a36ef479fee400e304410e
   - enabled: 1
+    path: Assets/3-Playable-Data/UI-UX-Assets/Scenes-Development/UI-UX-D1-Credits.unity
+    guid: 10f04fcde8c2ce042b4cb5b007379954
+  - enabled: 1
     path: Assets/A.unity
     guid: 3f199fdfb5ca5c74a85909e976a062b1
   m_configObjects:

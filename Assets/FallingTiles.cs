@@ -26,6 +26,9 @@ public class FallingTiles : MonoBehaviour
         isFalling = true;
         yield return new WaitForSeconds(fallWait);
         rb.bodyType = RigidbodyType2D.Dynamic;
+        gameObject.SetActive(false);
+        gameObject.SetActive(true);
+        //Wait-then-Destroy:
         Destroy(gameObject, destroyWait);
     }
 }
