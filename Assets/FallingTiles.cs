@@ -5,6 +5,7 @@ public class FallingTiles : MonoBehaviour
 {
     public float fallWait = 2f;
     public float destroyWait = 1f;
+    public GameObject T;
     bool isFalling;
     Rigidbody2D rb;
     void Start()
@@ -17,6 +18,8 @@ public class FallingTiles : MonoBehaviour
     {
         if (!isFalling && collision.gameObject.CompareTag("Player"))
         {
+            T.SetActive(false);
+            T.SetActive(true);
             StartCoroutine(Fall());
         }
     }
@@ -26,8 +29,7 @@ public class FallingTiles : MonoBehaviour
         isFalling = true;
         yield return new WaitForSeconds(fallWait);
         rb.bodyType = RigidbodyType2D.Dynamic;
-        gameObject.SetActive(false);
-        gameObject.SetActive(true);
+
         //Wait-then-Destroy:
         Destroy(gameObject, destroyWait);
     }
