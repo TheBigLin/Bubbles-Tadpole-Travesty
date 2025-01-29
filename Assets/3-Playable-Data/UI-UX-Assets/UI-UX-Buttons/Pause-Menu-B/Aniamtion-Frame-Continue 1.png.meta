@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Aniamtion-Frame-Continue 1_0: 7058825407187216048
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

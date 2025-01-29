@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Aniamtion-Frame-Reset-Game 1_0: -8704735818359226680
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
