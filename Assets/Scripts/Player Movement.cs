@@ -1,8 +1,11 @@
+using JetBrains.Annotations;
+using System;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
     //public Animator animator;
+    public Animator animator;
     private float horizontal;
     private float speed = 10f;
     private float jumpingPower = 20f;
@@ -12,10 +15,17 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
+     
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
     // Update is called once per frame
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
+        
+
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
@@ -28,11 +38,15 @@ public class PlayerMovement : MonoBehaviour
         }
 
         Flip();
+        
     }
+    
+
 
     private void FixedUpdate()
     {
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        animator.SetFloat("magnitude", Math.Abs(rb.velocity.x));
     }
 
     private bool IsGrounded()
@@ -40,14 +54,18 @@ public class PlayerMovement : MonoBehaviour
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
 
-    private void Flip()
+     void Flip()
+        
     {
+        
         if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
         {
             isFacingRight = !isFacingRight;
             Vector3 localscale = transform.localScale;
             localscale.x *= -1f;
-            transform.localScale = localscale;
+            transform.localScale = localscale;  
+
+            
         }
     }
 }
