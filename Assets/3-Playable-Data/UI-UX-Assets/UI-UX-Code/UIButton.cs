@@ -17,10 +17,15 @@ public class UIButton : MonoBehaviour
     {
         SceneManager.LoadScene("UI-UX-D1-Credits");
     }
-
+    //Resume-For-Continue-Button
     public void ResumeScene() 
     {
         PauseMenu.SetActive(false);
+    }
+    //Go-Back-to-Menu
+    public void ResetGame()
+    {
+        SceneManager.LoadScene("UI-UX-D1-Menu");
     }
 
 }
