@@ -27,5 +27,10 @@ public class UIButton : MonoBehaviour
     {
         SceneManager.LoadScene("UI-UX-D1-Menu");
     }
+    public void ExitFromCredit() 
+    {
+        SceneManager.LoadScene("UI-UX-D1-Menu");
+
+    }
 
 }
