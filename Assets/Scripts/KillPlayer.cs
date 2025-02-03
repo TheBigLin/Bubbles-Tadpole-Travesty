@@ -9,7 +9,7 @@ public class KillPlayer : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(Respawn);
+            SceneManager.LoadScene("UI-UX-D1-GO");
         }
     }
 }
