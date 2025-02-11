@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 517c4e6ff6e0c3f41809b1f8267e09fb
+guid: 6e377a51f699b3c4a9043367b33fa93a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3646851214100615521
-    second: frog_WALK (2)_0
+      213: -8643440290113944827
+    second: Loading-Bar-4_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,6 +72,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -113,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: frog_WALK (2)_0
+      name: Loading-Bar-4_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 7
-        width: 30
-        height: 28
+        x: 0
+        y: 0
+        width: 718
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f9ea4d28428c36dc0800000000000000
-      internalID: -3646851214100615521
+      spriteID: 503857ed9d45c0880800000000000000
+      internalID: -8643440290113944827
       vertices: []
       indices: 
       edges: []
@@ -138,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      frog_WALK (2)_0: -3646851214100615521
+      Loading-Bar-4_0: -8643440290113944827
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

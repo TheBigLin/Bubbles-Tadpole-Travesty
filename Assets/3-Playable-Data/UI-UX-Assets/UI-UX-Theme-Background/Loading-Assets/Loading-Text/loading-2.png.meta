@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 517c4e6ff6e0c3f41809b1f8267e09fb
+guid: 4d697a94bed3be447a007b0705134575
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3646851214100615521
-    second: frog_WALK (2)_0
+      213: -1413196665759055290
+    second: loading-2_0
+  - first:
+      213: 7229250091968852457
+    second: loading-2_1
+  - first:
+      213: -8902630076386830641
+    second: loading-2_2
+  - first:
+      213: 223778068889832600
+    second: loading-2_3
+  - first:
+      213: -7708860438138188799
+    second: loading-2_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +58,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,6 +84,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -113,13 +138,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: frog_WALK (2)_0
+      name: loading-2_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 7
-        width: 30
-        height: 28
+        x: 0
+        y: 13
+        width: 22
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +153,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f9ea4d28428c36dc0800000000000000
-      internalID: -3646851214100615521
+      spriteID: 6424aa3be11536ce0800000000000000
+      internalID: -1413196665759055290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-2_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 14
+        width: 114
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1734c08a4735460800000000000000
+      internalID: 7229250091968852457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-2_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 14
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6114a1d11837480800000000000000
+      internalID: -8902630076386830641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-2_3
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 13
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c83b0d7f40b1300800000000000000
+      internalID: 223778068889832600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loading-2_4
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c06b95640a40590800000000000000
+      internalID: -7708860438138188799
       vertices: []
       indices: 
       edges: []
@@ -138,7 +251,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +261,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      frog_WALK (2)_0: -3646851214100615521
+      loading-2_0: -1413196665759055290
+      loading-2_1: 7229250091968852457
+      loading-2_2: -8902630076386830641
+      loading-2_3: 223778068889832600
+      loading-2_4: -7708860438138188799
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
