@@ -1,11 +1,7 @@
-using JetBrains.Annotations;
-using System;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    //public Animator animator;
-    public Animator animator;
     private float horizontal;
     private float speed = 10f;
     private float jumpingPower = 20f;
@@ -14,41 +10,35 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private Animator animator;
 
-     
-    void Start()
-    {
-        animator = GetComponent<Animator>();
-    }
-    // Update is called once per frame
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
-        
-
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
-            Debug.Log("1");
         }
 
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
         {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
-            Debug.Log("2");
         }
 
         Flip();
         
+        animator.SetFloat("magnitude", Mathf.Abs(horizontal));
+
+
+
     }
-    
+
 
 
     private void FixedUpdate()
     {
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
-        animator.SetFloat("magnitude", Math.Abs(rb.velocity.x));
     }
 
     private bool IsGrounded()
@@ -56,19 +46,14 @@ public class PlayerMovement : MonoBehaviour
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
 
-     void Flip()
-        
+    private void Flip()
     {
-        
         if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
         {
             isFacingRight = !isFacingRight;
-            Vector3 localscale = transform.localScale;
-            localscale.x *= -1f;
-            transform.localScale = localscale;  
-
-            
+            Vector3 localScale = transform.localScale;
+            localScale.x *= -1f;
+            transform.localScale = localScale;
         }
     }
 }
-

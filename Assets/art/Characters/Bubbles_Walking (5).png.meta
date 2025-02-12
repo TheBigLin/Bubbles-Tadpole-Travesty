@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 517c4e6ff6e0c3f41809b1f8267e09fb
+guid: a5ceeb0504b4f5e4fa27e0741c925cfd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3646851214100615521
-    second: frog_WALK (2)_0
+      213: -8921540663633728816
+    second: Bubbles_Walking (5)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,24 +96,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: frog_WALK (2)_0
+      name: Bubbles_Walking (5)_0
       rect:
         serializedVersion: 2
         x: 5
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f9ea4d28428c36dc0800000000000000
-      internalID: -3646851214100615521
+      spriteID: 0daa8e6e802503480800000000000000
+      internalID: -8921540663633728816
       vertices: []
       indices: 
       edges: []
@@ -147,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      frog_WALK (2)_0: -3646851214100615521
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
