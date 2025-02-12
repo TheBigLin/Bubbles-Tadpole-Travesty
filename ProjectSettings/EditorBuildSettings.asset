@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/3-Playable-Data/UI-UX-Assets/Scenes-Development/2-Level.unity
     guid: 8462f7f464a5fcf41a3617484a88ce33
   - enabled: 1
-    path: Assets/3-Playable-Data/UI-UX-Assets/Scenes-Development/Loading-Screen.unity
+    path: Assets/3-Playable-Data/UI-UX-Assets/Scenes-Development/Loading-Screen-1.unity
     guid: f83602be675a8a241b3f869667683cf7
   - enabled: 1
     path: Assets/3-Playable-Data/UI-UX-Assets/Scenes-Development/3-Level.unity

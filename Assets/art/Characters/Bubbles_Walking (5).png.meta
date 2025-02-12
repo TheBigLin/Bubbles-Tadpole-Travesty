@@ -1,10 +1,19 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/art/Characters/Bubbles_Walking (5).png.meta
 guid: a5ceeb0504b4f5e4fa27e0741c925cfd
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: -8921540663633728816
     second: Bubbles_Walking (5)_0
+========
+guid: 873e98dd010c0e349805216891d14d37
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4220922718377249575
+    second: Bubbles_Walking (6)_0
+>>>>>>>> 25032c3de85b914c83aaca3ad058880db41f4f50:Assets/art/Characters/Bubbles_Walking (6).png.meta
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +109,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<<< HEAD:Assets/art/Characters/Bubbles_Walking (5).png.meta
       name: Bubbles_Walking (5)_0
+========
+      name: Bubbles_Walking (6)_0
+>>>>>>>> 25032c3de85b914c83aaca3ad058880db41f4f50:Assets/art/Characters/Bubbles_Walking (6).png.meta
       rect:
         serializedVersion: 2
         x: 5
@@ -115,8 +128,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<<< HEAD:Assets/art/Characters/Bubbles_Walking (5).png.meta
       spriteID: 0daa8e6e802503480800000000000000
       internalID: -8921540663633728816
+========
+      spriteID: 72b804559dab39a30800000000000000
+      internalID: 4220922718377249575
+>>>>>>>> 25032c3de85b914c83aaca3ad058880db41f4f50:Assets/art/Characters/Bubbles_Walking (6).png.meta
       vertices: []
       indices: 
       edges: []
@@ -134,7 +152,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<<< HEAD:Assets/art/Characters/Bubbles_Walking (5).png.meta
     nameFileIdTable: {}
+========
+    nameFileIdTable:
+      Bubbles_Walking (6)_0: 4220922718377249575
+>>>>>>>> 25032c3de85b914c83aaca3ad058880db41f4f50:Assets/art/Characters/Bubbles_Walking (6).png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
