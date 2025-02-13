@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bubbles_Slingshot_Animation (2)_0: 879881976298149577
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
