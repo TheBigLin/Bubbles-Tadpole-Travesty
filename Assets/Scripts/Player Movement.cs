@@ -1,4 +1,5 @@
 using UnityEngine;
+using static UnityEngine.RuleTile.TilingRuleOutput;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -6,9 +7,11 @@ public class PlayerMovement : MonoBehaviour
     private float speed = 10f;
     private float jumpingPower = 20f;
     private bool isFacingRight = true;
+    private Vector3 lastPos;
+
 
     [SerializeField] private Rigidbody2D rb;
-    [SerializeField] private Transform groundCheck;
+    [SerializeField] private UnityEngine.Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private Animator animator;
 
@@ -30,7 +33,10 @@ public class PlayerMovement : MonoBehaviour
         
         animator.SetFloat("magnitude", Mathf.Abs(horizontal));
 
-
+        if (IsGrounded())
+        {
+            lastPos = transform.position;
+        }
 
     }
 
@@ -56,4 +62,31 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = localScale;
         }
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("TryAgain"))
+        {
+            Respawn();
+        }
+    }
+
+    void Respawn()
+    {
+        float respawnOffsetX = 1.5f;
+        float respawnOffsetY = 1f;
+        float moveDirection = rb.velocity.x >= 0 ? -1 : 1;
+
+        // Adjust respawn pos
+        transform.position = new Vector3(
+            lastPos.x + (respawnOffsetX * moveDirection),
+            lastPos.y + respawnOffsetY);
+
+        rb.velocity = Vector2.zero;
+    }
+
+
+
 }
+
+

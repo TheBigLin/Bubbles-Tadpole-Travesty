@@ -37,7 +37,7 @@ public class GrappleMechanic : MonoBehaviour
         {
             GetComponent<PlayerMovement>().enabled = true;
             isActivated = false;
-            Debug.Log("Collision detected with the specific GameObject!");
+            
         }
     }
 

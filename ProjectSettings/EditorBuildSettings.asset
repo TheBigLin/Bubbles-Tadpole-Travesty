@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/3-Playable-Data/UI-UX-Assets/Scenes-Development/UI-UX-D1-GO.unity
     guid: 28e8d6629186ce347b4cd4242f441ab4
   - enabled: 1
-    path: Assets/A.unity
+    path: Assets/Game Scenes/A.unity
     guid: 3f199fdfb5ca5c74a85909e976a062b1
   - enabled: 1
     path: Assets/3-Playable-Data/UI-UX-Assets/Scenes-Development/2-Level.unity
