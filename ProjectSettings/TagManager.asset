@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Fly
   - Water
+  - Portal2
+  - Portal3
   layers:
   - Default
   - TransparentFX
