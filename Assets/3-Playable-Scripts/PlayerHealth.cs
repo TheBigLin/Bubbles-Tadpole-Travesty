@@ -1,7 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
 public class PlayerHealthTimur : MonoBehaviour
 {
     public int maxhealth = 5;
@@ -31,7 +30,8 @@ public class PlayerHealthTimur : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            //
+            Debug.Log("Zero-Health");
+            SceneManager.LoadScene("UI-UX-D1-GO");
         }
     }
 }
