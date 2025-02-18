@@ -9,28 +9,28 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/3-Playable-Data/UI-UX-Assets/Scenes-Development/UI-UX-D1-Menu.unity
+    path: Assets/Scenes/UI-UX-D1-Menu.unity
     guid: 1396310c85a36ef479fee400e304410e
   - enabled: 1
-    path: Assets/3-Playable-Data/UI-UX-Assets/Scenes-Development/UI-UX-D1-Credits.unity
+    path: Assets/Scenes/UI-UX-D1-Credits.unity
     guid: 10f04fcde8c2ce042b4cb5b007379954
   - enabled: 1
-    path: Assets/3-Playable-Data/UI-UX-Assets/Scenes-Development/UI-UX-D1-GO.unity
+    path: Assets/Scenes/UI-UX-D1-GO.unity
     guid: 28e8d6629186ce347b4cd4242f441ab4
   - enabled: 1
     path: Assets/A.unity
     guid: 3f199fdfb5ca5c74a85909e976a062b1
   - enabled: 1
-    path: Assets/3-Playable-Data/UI-UX-Assets/Scenes-Development/Loading-Screen-2.unity
+    path: Assets/Scenes/Loading-Screen-2.unity
     guid: f83602be675a8a241b3f869667683cf7
   - enabled: 1
-    path: Assets/3-Playable-Data/UI-UX-Assets/Scenes-Development/LevelTwo.unity
+    path: Assets/Scenes/LevelTwo.unity
     guid: 1eaa74f9b939b5f47a854c748c3b3f33
   - enabled: 1
-    path: Assets/3-Playable-Data/UI-UX-Assets/Scenes-Development/Loading-Screen-3.unity
+    path: Assets/Scenes/Loading-Screen-3.unity
     guid: 4810b10c17d7d124299fe441895a7c31
   - enabled: 1
-    path: Assets/3-Playable-Data/UI-UX-Assets/Scenes-Development/LevelThree.unity
+    path: Assets/Scenes/LevelThree.unity
     guid: 2b0a2d16545975f4294f087153289873
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
