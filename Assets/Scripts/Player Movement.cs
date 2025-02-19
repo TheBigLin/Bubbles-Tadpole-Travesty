@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isJumping;
     private Vector3 lastPos;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
     private float coyoteTime = 0.3f;
     private float coyoteTimeCounter;
@@ -18,6 +19,9 @@ public class PlayerMovement : MonoBehaviour
     private float jumpBufferTime = 0.2f;
     private float jumpBufferCounter;
 
+=======
+    public bool canMove = true; 
+>>>>>>> Stashed changes
 =======
     public bool canMove = true; 
 >>>>>>> Stashed changes
@@ -68,6 +72,7 @@ public class PlayerMovement : MonoBehaviour
             lastPos = transform.position;
         }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
         if (IsGrounded())
         {
@@ -78,6 +83,8 @@ public class PlayerMovement : MonoBehaviour
             coyoteTimeCounter -= Time.deltaTime;
         }
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     }
