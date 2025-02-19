@@ -33,7 +33,21 @@ public class PlayerHealth : MonoBehaviour
             takeDamageSound.Play();
             TeleportPlayer();
         }
-        
+
+        if (collision.CompareTag("ToadDamage"))
+        {
+            TakeDamage(1);
+            takeDamageSound.Play();
+            TeleportPlayer();
+        }
+
+        if (collision.CompareTag("KOTDDamage"))
+        {
+            TakeDamage(1);
+            takeDamageSound.Play();
+            TeleportPlayer();
+        }
+
     }
 
     private void TeleportPlayer()

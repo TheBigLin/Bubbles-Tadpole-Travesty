@@ -12,6 +12,8 @@ TagManager:
   - DeathZone
   - WaspDamage
   - EnemyHead
+  - ToadDamage
+  - KOTDDamage
   layers:
   - Default
   - TransparentFX

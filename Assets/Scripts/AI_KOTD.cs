@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class AI_TK : MonoBehaviour
+public class AI_KOTD : MonoBehaviour
 {
     public GameObject player;
     public float speed;
@@ -15,7 +15,7 @@ public class AI_TK : MonoBehaviour
         Vector2 direction = player.transform.position - transform.position;
         direction.Normalize();
 
-        if (distance < 9)
+        if (distance < 15)
         {
             transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
         }
