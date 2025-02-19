@@ -983,6 +983,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fly (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25.601225
@@ -1072,6 +1076,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fly (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 71.7799
@@ -1128,6 +1136,10 @@ PrefabInstance:
     - target: {fileID: 485006597826431073, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_Name
       value: Fly (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1186,6 +1198,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fly (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4269518220602754116, guid: f64628ca018346a468fe8b8572a718ef, type: 3}
+    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.7034001
@@ -1243,6 +1263,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fly (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 61.138947
@@ -1299,6 +1323,10 @@ PrefabInstance:
     - target: {fileID: 485006597826431073, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_Name
       value: Fly
+      objectReference: {fileID: 0}
+    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1545,6 +1573,10 @@ PrefabInstance:
     - target: {fileID: 485006597826431073, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_Name
       value: Fly (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3144,6 +3176,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fly (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 80.53704
@@ -3375,6 +3411,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fly (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 127.530304
@@ -3532,6 +3572,10 @@ PrefabInstance:
     - target: {fileID: 485006597826431073, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_Name
       value: Fly (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3947,6 +3991,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fly (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 96.371185
@@ -4038,6 +4086,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fly (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 98.662285
@@ -4094,6 +4146,10 @@ PrefabInstance:
     - target: {fileID: 485006597826431073, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_Name
       value: Fly (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4152,6 +4208,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fly (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.345752
@@ -4208,6 +4268,10 @@ PrefabInstance:
     - target: {fileID: 485006597826431073, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_Name
       value: Fly (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -122292,6 +122356,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fly (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 26.161274
@@ -122348,6 +122416,10 @@ PrefabInstance:
     - target: {fileID: 485006597826431073, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_Name
       value: Fly (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -122952,6 +123024,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fly (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 109.30324
@@ -123008,6 +123084,10 @@ PrefabInstance:
     - target: {fileID: 485006597826431073, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_Name
       value: Fly (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -123276,6 +123356,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fly (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 126.81753
@@ -123364,6 +123448,10 @@ PrefabInstance:
     - target: {fileID: 485006597826431073, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_Name
       value: Fly (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -123539,6 +123627,10 @@ PrefabInstance:
     - target: {fileID: 485006597826431073, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_Name
       value: Fly (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_LocalPosition.x
