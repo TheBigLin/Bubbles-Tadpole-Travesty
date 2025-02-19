@@ -7,7 +7,14 @@ public class PlayerMovement : MonoBehaviour
     private float speed = 10f;
     private float jumpingPower = 20f;
     private bool isFacingRight = true;
+    private bool isJumping;
     private Vector3 lastPos;
+
+    private float coyoteTime = 0.3f;
+    private float coyoteTimeCounter;
+
+    private float jumpBufferTime = 0.2f;
+    private float jumpBufferCounter;
 
 
     [SerializeField] private Rigidbody2D rb;
@@ -36,6 +43,15 @@ public class PlayerMovement : MonoBehaviour
         if (IsGrounded())
         {
             lastPos = transform.position;
+        }
+
+        if (IsGrounded())
+        {
+            coyoteTimeCounter = coyoteTime;
+        }
+        else
+        {
+            coyoteTimeCounter -= Time.deltaTime;
         }
 
     }
