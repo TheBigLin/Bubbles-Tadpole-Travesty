@@ -25,7 +25,7 @@ public class UIButton : MonoBehaviour
     //Go-Back-to-Menu
     public void ResetGame()
     {
-        SceneManager.LoadScene("UI-UX-D1-Menu");
+        SceneManager.LoadScene("A");
     }
     public void ExitFromCredit() 
     {

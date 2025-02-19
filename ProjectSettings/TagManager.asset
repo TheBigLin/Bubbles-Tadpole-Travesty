@@ -8,11 +8,15 @@ TagManager:
   - Water
   - Portal2
   - Portal3
+  - TryAgain
+  - DeathZone
+  - WaspDamage
+  - EnemyHead
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - HeadCollider
   - Water
   - UI
   - Ground

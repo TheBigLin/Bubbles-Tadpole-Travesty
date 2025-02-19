@@ -1,5 +1,6 @@
 using UnityEngine;
 using static UnityEngine.RuleTile.TilingRuleOutput;
+using Yarn.Unity;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isFacingRight = true;
     private bool isJumping;
     private Vector3 lastPos;
+<<<<<<< Updated upstream
 
     private float coyoteTime = 0.3f;
     private float coyoteTimeCounter;
@@ -16,19 +18,39 @@ public class PlayerMovement : MonoBehaviour
     private float jumpBufferTime = 0.2f;
     private float jumpBufferCounter;
 
+=======
+    public bool canMove = true; 
+>>>>>>> Stashed changes
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private UnityEngine.Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private Animator animator;
+    [SerializeField] private AudioSource jumpSound;
+    [SerializeField] private AudioSource runningSound;
+    [SerializeField] private DialogueRunner dialogueRunner; 
+
+    private void Start()
+    {
+        
+        dialogueRunner.onDialogueComplete.AddListener(EnableMovement);
+    }
 
     void Update()
     {
+        if (!canMove) 
+        {
+            rb.velocity = new Vector2(0, rb.velocity.y);
+            animator.SetFloat("magnitude", 0);
+            return;
+        }
+
         horizontal = Input.GetAxisRaw("Horizontal");
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+            jumpSound.Play();
         }
 
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
@@ -36,14 +58,16 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
 
+        HandleRunningSound();
         Flip();
-        
+
         animator.SetFloat("magnitude", Mathf.Abs(horizontal));
 
         if (IsGrounded())
         {
             lastPos = transform.position;
         }
+<<<<<<< Updated upstream
 
         if (IsGrounded())
         {
@@ -54,13 +78,16 @@ public class PlayerMovement : MonoBehaviour
             coyoteTimeCounter -= Time.deltaTime;
         }
 
+=======
+>>>>>>> Stashed changes
     }
-
-
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        if (canMove)
+        {
+            rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        }
     }
 
     private bool IsGrounded()
@@ -79,13 +106,39 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private void HandleRunningSound()
+    {
+        if (Mathf.Abs(horizontal) > 0 && IsGrounded())
+        {
+            if (!runningSound.isPlaying)
+            {
+                runningSound.Play();
+            }
+        }
+        else
+        {
+            if (runningSound.isPlaying)
+            {
+                runningSound.Stop();
+            }
+        }
+    }
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("TryAgain"))
         {
             Respawn();
         }
+
+        if (other.gameObject.layer == LayerMask.NameToLayer("HeadCollider") && rb.velocity.y < 0)
+        {
+            
+            Destroy(other.gameObject);
+        }
     }
+
+
 
     void Respawn()
     {
@@ -93,7 +146,6 @@ public class PlayerMovement : MonoBehaviour
         float respawnOffsetY = 1f;
         float moveDirection = rb.velocity.x >= 0 ? -1 : 1;
 
-        // Adjust respawn pos
         transform.position = new Vector3(
             lastPos.x + (respawnOffsetX * moveDirection),
             lastPos.y + respawnOffsetY);
@@ -101,8 +153,16 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = Vector2.zero;
     }
 
+    public void DisableMovement()
+    {
+        canMove = false;
+    }
+
+    public void EnableMovement()
+    {
+        canMove = true;
+    }
+
 
 
 }
-
-

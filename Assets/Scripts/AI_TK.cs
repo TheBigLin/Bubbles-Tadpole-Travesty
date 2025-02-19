@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class AI_C : MonoBehaviour
+public class AI_TK : MonoBehaviour
 {
     public GameObject player;
     public float speed;
