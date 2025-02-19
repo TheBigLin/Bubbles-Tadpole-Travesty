@@ -8,27 +8,8 @@ public class PlayerMovement : MonoBehaviour
     private float speed = 10f;
     private float jumpingPower = 20f;
     private bool isFacingRight = true;
-    private bool isJumping;
     private Vector3 lastPos;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-
-    private float coyoteTime = 0.3f;
-    private float coyoteTimeCounter;
-
-    private float jumpBufferTime = 0.2f;
-    private float jumpBufferCounter;
-
-=======
     public bool canMove = true; 
->>>>>>> Stashed changes
-=======
-    public bool canMove = true; 
->>>>>>> Stashed changes
-=======
-    public bool canMove = true; 
->>>>>>> Stashed changes
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private UnityEngine.Transform groundCheck;
@@ -75,25 +56,6 @@ public class PlayerMovement : MonoBehaviour
         {
             lastPos = transform.position;
         }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-
-        if (IsGrounded())
-        {
-            coyoteTimeCounter = coyoteTime;
-        }
-        else
-        {
-            coyoteTimeCounter -= Time.deltaTime;
-        }
-
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     }
 
     private void FixedUpdate()
