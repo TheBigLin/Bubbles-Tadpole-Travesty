@@ -3,11 +3,11 @@ using UnityEngine.Tilemaps;
 
 public class WaterFloatEffect : MonoBehaviour
 {
-    public float floatStrength = 0.5f; // Controls the height of the float effect
-    public float floatSpeed = 2.0f;    // Controls the speed of the float effect
+    public float floatStrength = 0.5f; 
+    public float floatSpeed = 2.0f;    
 
-    private bool isInWater = false;    // To check if the player is in water
-    private float originalY;           // To store bubble's original Y position
+    private bool isInWater = false; 
+    private float originalY;
 
     private void Start()
     {
