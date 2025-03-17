@@ -15,6 +15,8 @@ TagManager:
   - ToadDamage
   - KOTDDamage
   - Top
+  - LeftT
+  - RightT
   layers:
   - Default
   - TransparentFX
