@@ -211,7 +211,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CRAYFISH_ANIMATION_0: 355413676598591903
+      CRAYFISH_ANIMATION_1: 6371838136694146147
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
