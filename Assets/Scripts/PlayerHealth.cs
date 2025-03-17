@@ -12,6 +12,8 @@ public class PlayerHealth : MonoBehaviour
     private bool hasShownDamageDialogue = false;
     [SerializeField] private AudioSource takeDamageSound;
 
+    public int playerDamage = 1;
+
     private void Start()
     {
         currentHealth = maxHealth;
@@ -19,35 +21,50 @@ public class PlayerHealth : MonoBehaviour
         healthUI.UpdateHearts(currentHealth);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.CompareTag("DeathZone"))
+        if (collision.collider.CompareTag("DeathZone"))
         {
             TakeDamage(1);
             takeDamageSound.Play();
         }
 
-        if (collision.CompareTag("WaspDamage"))
-        {
-            TakeDamage(1);
-            takeDamageSound.Play();
-            TeleportPlayer();
-        }
-
-        if (collision.CompareTag("ToadDamage"))
+        if (collision.collider.CompareTag("WaspDamage"))
         {
             TakeDamage(1);
             takeDamageSound.Play();
             TeleportPlayer();
         }
 
-        if (collision.CompareTag("KOTDDamage"))
+        if (collision.collider.CompareTag("ToadDamage"))
         {
             TakeDamage(1);
             takeDamageSound.Play();
             TeleportPlayer();
         }
 
+        if (collision.collider.CompareTag("KOTDDamage"))
+        {
+            TakeDamage(1);
+            takeDamageSound.Play();
+            TeleportPlayer();
+        }
+
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Top")) //&& topDetector.GetComponent<Collider2D>().IsTouching(other))
+        {
+            Debug.Log("1");
+
+            AI_C enemyScript = other.GetComponent<AI_C>();
+            if (enemyScript != null)
+            {
+                enemyScript.TakeDamage(playerDamage);
+                Debug.Log("Enemy damaged!");
+            }
+        }
     }
 
     private void TeleportPlayer()

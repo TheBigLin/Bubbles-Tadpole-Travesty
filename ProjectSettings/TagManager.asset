@@ -14,6 +14,7 @@ TagManager:
   - EnemyHead
   - ToadDamage
   - KOTDDamage
+  - Top
   layers:
   - Default
   - TransparentFX
