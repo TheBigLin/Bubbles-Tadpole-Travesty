@@ -205870,6 +205870,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wasp
       objectReference: {fileID: 0}
+    - target: {fileID: 3774355497337005505, guid: 1941309b64064994391baca37987ecc9, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7647679835012010853, guid: 1941309b64064994391baca37987ecc9, type: 3}
       propertyPath: player
       value: 

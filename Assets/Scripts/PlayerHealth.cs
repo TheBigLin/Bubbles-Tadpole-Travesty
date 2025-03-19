@@ -21,29 +21,29 @@ public class PlayerHealth : MonoBehaviour
         healthUI.UpdateHearts(currentHealth);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.collider.CompareTag("DeathZone"))
+        if (collision.CompareTag("DeathZone"))
         {
             TakeDamage(1);
             takeDamageSound.Play();
         }
 
-        if (collision.collider.CompareTag("WaspDamage"))
-        {
-            TakeDamage(1);
-            takeDamageSound.Play();
-            TeleportPlayer();
-        }
-
-        if (collision.collider.CompareTag("ToadDamage"))
+        if (collision.CompareTag("WaspDamage"))
         {
             TakeDamage(1);
             takeDamageSound.Play();
             TeleportPlayer();
         }
 
-        if (collision.collider.CompareTag("KOTDDamage"))
+        if (collision.CompareTag("ToadDamage"))
+        {
+            TakeDamage(1);
+            takeDamageSound.Play();
+            TeleportPlayer();
+        }
+
+        if (collision.CompareTag("KOTDDamage"))
         {
             TakeDamage(1);
             takeDamageSound.Play();
@@ -52,13 +52,13 @@ public class PlayerHealth : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Top")) //&& topDetector.GetComponent<Collider2D>().IsTouching(other))
         {
             Debug.Log("1");
-
-            AI_C enemyScript = other.GetComponent<AI_C>();
+    
+            AI_C enemyScript = other.collider.GetComponent<AI_C>();
             if (enemyScript != null)
             {
                 enemyScript.TakeDamage(playerDamage);
