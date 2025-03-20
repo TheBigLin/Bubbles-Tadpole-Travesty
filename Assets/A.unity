@@ -619,6 +619,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
   m_PrefabInstance: {fileID: 51540094}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &62832349 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3694760600679455788, guid: 1941309b64064994391baca37987ecc9, type: 3}
+  m_PrefabInstance: {fileID: 8464001244102730117}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &103520718
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -203592,7 +203597,7 @@ Transform:
   m_GameObject: {fileID: 1993980714}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: 0.56, z: 0}
+  m_LocalPosition: {x: 122.39, y: 0.56, z: 0}
   m_LocalScale: {x: 3.330042, y: 3.330042, z: 3.330042}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -203781,7 +203786,7 @@ SpringJoint2D:
   m_Anchor: {x: 0.07763908, y: -0.036971085}
   m_ConnectedAnchor: {x: 0, y: 0}
   m_AutoConfigureDistance: 1
-  m_Distance: 4.7615433
+  m_Distance: 122.64932
   m_DampingRatio: 1
   m_Frequency: 1
 --- !u!95 &1993980729
@@ -205862,22 +205867,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3655754084756762779, guid: 1941309b64064994391baca37987ecc9, type: 3}
+    - target: {fileID: 821193650859920956, guid: 1941309b64064994391baca37987ecc9, type: 3}
+      propertyPath: Wasp
+      value: 
+      objectReference: {fileID: 62832349}
+    - target: {fileID: 821193650859920956, guid: 1941309b64064994391baca37987ecc9, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1993980714}
+    - target: {fileID: 821193650859920956, guid: 1941309b64064994391baca37987ecc9, type: 3}
+      propertyPath: enemyHealth
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3694760600679455788, guid: 1941309b64064994391baca37987ecc9, type: 3}
       propertyPath: m_Name
       value: Wasp
-      objectReference: {fileID: 0}
-    - target: {fileID: 3774355497337005505, guid: 1941309b64064994391baca37987ecc9, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7647679835012010853, guid: 1941309b64064994391baca37987ecc9, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1993980714}
+    - target: {fileID: 7647679835012010853, guid: 1941309b64064994391baca37987ecc9, type: 3}
+      propertyPath: enemyHealth
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

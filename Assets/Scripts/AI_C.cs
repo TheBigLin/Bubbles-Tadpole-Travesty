@@ -11,6 +11,8 @@ public class AI_C : MonoBehaviour
 
     public int enemyHealth = 3;
 
+    public GameObject Wasp;
+
     private void Update()
     {
         distance = Vector2.Distance(transform.position, player.transform.position);
@@ -32,6 +34,7 @@ public class AI_C : MonoBehaviour
         {
             Debug.Log("Enemy defeated!");
             Destroy(gameObject);
+            Destroy(Wasp);
         }
     }
 
