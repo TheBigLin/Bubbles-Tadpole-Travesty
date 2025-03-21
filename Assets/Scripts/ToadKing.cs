@@ -10,6 +10,7 @@ public class ToadKing : MonoBehaviour
     private float timeBtwDamage = 0f;
     public float attackCooldown = 1f;
     private float nextAttackTime = 0f;
+    public float playerKnockback = 7f;
 
     public Slider healthBar;
     public GameObject Toadking;
@@ -108,7 +109,14 @@ public class ToadKing : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
-            TakeDamage(4); 
+            TakeDamage(4);
+
+            Rigidbody2D playerRb = collision.collider.GetComponent<Rigidbody2D>();
+            if (playerRb != null)
+            {
+                Vector2 knockbackDirection = (playerRb.transform.position - transform.position).normalized;
+                playerRb.AddForce(knockbackDirection * playerKnockback, ForceMode2D.Impulse);
+            }
         }
     }
 }

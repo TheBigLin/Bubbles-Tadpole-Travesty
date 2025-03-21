@@ -17802,6 +17802,7 @@ MonoBehaviour:
   health: 50
   damage: 4
   attackCooldown: 1
+  playerKnockback: 7
   healthBar: {fileID: 1190950973}
   Toadking: {fileID: 1977932263}
   player: {fileID: 1993980716}
@@ -203452,6 +203453,7 @@ MonoBehaviour:
   health: 50
   damage: 4
   attackCooldown: 1
+  playerKnockback: 7
   healthBar: {fileID: 1190950973}
   Toadking: {fileID: 1977932263}
   player: {fileID: 1993980716}
