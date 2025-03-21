@@ -53,6 +53,8 @@ public class PlayerHealth : MonoBehaviour
     }
 
 
+
+
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Top")) //&& topDetector.GetComponent<Collider2D>().IsTouching(other))
@@ -65,6 +67,12 @@ public class PlayerHealth : MonoBehaviour
                 enemyScript.TakeDamage(playerDamage);
                 Debug.Log("Enemy damaged!");
             }
+           // ToadKing bossScript = other.collider.GetComponent<ToadKing>();
+           // if (bossScript != null)
+          //  {
+            //    bossScript.TakeDamage(4);
+            //    Debug.Log("Enemy damaged!");
+           // }
         }
     }
 
