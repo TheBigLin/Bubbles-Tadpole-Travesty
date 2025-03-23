@@ -1184,9 +1184,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 758679916692578736, guid: d3984ed54bcac65418485a0bc971369e, type: 3}
+      propertyPath: Wasp
+      value: 
+      objectReference: {fileID: 268067154}
+    - target: {fileID: 758679916692578736, guid: d3984ed54bcac65418485a0bc971369e, type: 3}
+      propertyPath: enemyHealth
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2187466421569196710, guid: d3984ed54bcac65418485a0bc971369e, type: 3}
       propertyPath: m_Name
       value: Crayfish
+      objectReference: {fileID: 0}
+    - target: {fileID: 4313093089917260304, guid: d3984ed54bcac65418485a0bc971369e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 835522016}
+    - target: {fileID: 4313093089917260304, guid: d3984ed54bcac65418485a0bc971369e, type: 3}
+      propertyPath: enemyHealth
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5804149547377644759, guid: d3984ed54bcac65418485a0bc971369e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1233,6 +1249,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3984ed54bcac65418485a0bc971369e, type: 3}
+--- !u!1 &268067154 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2187466421569196710, guid: d3984ed54bcac65418485a0bc971369e, type: 3}
+  m_PrefabInstance: {fileID: 264209136}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &273133113
 GameObject:
   m_ObjectHideFlags: 0
