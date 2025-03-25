@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class titanofthedam : MonoBehaviour
 {
@@ -17,11 +18,14 @@ public class titanofthedam : MonoBehaviour
     public GameObject Titanofthedam;
     private Rigidbody2D rb;
 
+    private bool isBuffed = false;
+    public Renderer KOTDrenderer;
     private int currentPatrolIndex = 0;
     private int currentHealth;
     private bool isCharging;
     private float chargeTimer;
     private float lastKnownPlayerX;
+    
 
     void Start()
     {
@@ -47,6 +51,15 @@ public class titanofthedam : MonoBehaviour
         {
             Destroy(Titanofthedam);
             Destroy(healthBar.gameObject);
+            SceneManager.LoadScene("UI-UX-D1-Credits");
+        }
+        else if (health <= healthBar.maxValue / 2 && !isBuffed)
+        {
+            chargeCooldown *= 0.5f;
+            chargeSpeed *= 1.3f;
+            chargeRange *= 1.5f;
+            KOTDrenderer.material.color = Color.red; // Turn red
+            isBuffed = true;
         }
     }
 
@@ -136,9 +149,10 @@ public class titanofthedam : MonoBehaviour
             Rigidbody2D playerRb = collision.collider.GetComponent<Rigidbody2D>();
             if (playerRb != null)
             {
-                Vector2 knockbackDirection = (playerRb.transform.position - transform.position).normalized;
+                Vector2 knockbackDirection = (collision.collider.transform.position - transform.position).normalized;
                 playerRb.AddForce(knockbackDirection * playerKnockback, ForceMode2D.Impulse);
             }
         }
     }
+
 }
