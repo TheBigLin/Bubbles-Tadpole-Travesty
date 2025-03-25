@@ -5,15 +5,15 @@ using UnityEngine.SceneManagement;
 public class LoadCredits : MonoBehaviour
 {
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
+    //private void OnTriggerEnter2D(Collider2D other)
+    //{//
+        //if (other.gameObject.CompareTag("Player"))
+        //{
             //Destroy(other.gameObject);
-            Debug.Log("Level-Two");
+           // Debug.Log("Level-Two");
             //Start-lEVEL-tWO
-            SceneManager.LoadScene("UI-UX-D1-Credits");
+           // SceneManager.LoadScene("UI-UX-D1-Credits");
 
         }
-    }
-}
+    //}
+//}

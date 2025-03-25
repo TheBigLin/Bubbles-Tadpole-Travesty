@@ -15,15 +15,23 @@ public class AI_C : MonoBehaviour
 
     private void Update()
     {
-        distance = Vector2.Distance(transform.position, player.transform.position);
-        Vector2 direction = player.transform.position - transform.position;
-        direction.Normalize();
-
+        distance = Mathf.Abs(transform.position.x - player.transform.position.x);
         if (distance < 6)
         {
-            transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
+            
+            Vector3 newPosition = transform.position;
+            if (transform.position.x < player.transform.position.x)
+            {
+                newPosition.x += speed * Time.deltaTime;
+            }
+            else if (transform.position.x > player.transform.position.x)
+            {
+                newPosition.x -= speed * Time.deltaTime;
+            }
+            transform.position = newPosition;
         }
     }
+
 
     public void TakeDamage(int damage)
     {

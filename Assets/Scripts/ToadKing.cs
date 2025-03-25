@@ -109,7 +109,7 @@ public class ToadKing : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
-            TakeDamage(4);
+            TakeDamage(2);
 
             Rigidbody2D playerRb = collision.collider.GetComponent<Rigidbody2D>();
             if (playerRb != null)
