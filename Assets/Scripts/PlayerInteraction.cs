@@ -11,7 +11,7 @@ public class PlayerInteraction : MonoBehaviour
     {
         playerMovement = GetComponent<PlayerMovement>();
 
- 
+
         dialogueRunner.onDialogueStart.AddListener(DisableMovement);
         dialogueRunner.onDialogueComplete.AddListener(EnableMovement);
     }

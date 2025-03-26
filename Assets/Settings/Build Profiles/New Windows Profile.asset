@@ -36,6 +36,8 @@ MonoBehaviour:
     m_path: Assets/Scenes/Loading-Screen-3.unity
   - m_enabled: 1
     m_path: Assets/Scenes/LevelThree.unity
+  - m_enabled: 1
+    m_path: Assets/Scenes/Prelogue.unity
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
     m_Settings: []

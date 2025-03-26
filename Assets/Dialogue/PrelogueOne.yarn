@@ -1,0 +1,29 @@
+﻿title: PrelogueOne
+tags:
+---
+A good game will provide you with a good story, would you like to learn about this one?
+-> YES
+    <<jump PrelogueFirst>>
+-> NO, SKIP TO LEVEL ONE.
+    <<jump SwitchSceneNode>>
+===
+
+
+title: PrelogueFirst
+---
+NARRATOR: Long ago, the Frog Village thrived in harmony. Bubbles, a father, cherished his tadpoles and his peaceful home. But danger lurked in the shadows.  
+
+NARRATOR: One night, disaster struck. A vengeful alligator snapping turtle stormed the village. Once a pet, abandoned, he hated Bubbles. In a cruel act of revenge, he stole his tadpoles, forcing The Cheese King and his rat army to help.  
+
+NARRATOR: Now, Bubbles must face the dangers of the swamp, battling predators and pushing forward with one goal. To save his children. He won’t be alone. A trusted friend, swears to help however he can.  
+
+NARRATOR: The fate of the village—and the tadpoles—rests in Bubbles' hands.
+    <<jump SwitchSceneNode>>
+=== 
+
+title: SwitchSceneNode
+---
+PLACEHOLDER TEXT. If you're seeing this, there is an issue scene switching using Yarn.
+-> PLACEHOLDER OPTION
+<<stop>>
+===

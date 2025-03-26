@@ -9,7 +9,7 @@ public class UIButton : MonoBehaviour
     {      
         //Using_The_Unity_Scene_Manager
         //Scene_Load_A
-        SceneManager.LoadScene("A");
+        SceneManager.LoadScene("Prologue");
     }
 
     //Class_For_Credit_Button
