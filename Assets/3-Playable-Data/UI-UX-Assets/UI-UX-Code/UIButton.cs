@@ -33,4 +33,15 @@ public class UIButton : MonoBehaviour
 
     }
 
+    public void QuitBackToMainmenu()
+    {
+        SceneManager.LoadScene("UI-UX-D1-Menu");
+    }
+
+    public void ExitGame() 
+    {
+        Application.Quit();
+        Debug.Log("Exit!!!!---");
+    }
+
 }
