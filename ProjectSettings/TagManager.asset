@@ -17,6 +17,7 @@ TagManager:
   - Top
   - LeftT
   - RightT
+  - Portal1
   layers:
   - Default
   - TransparentFX

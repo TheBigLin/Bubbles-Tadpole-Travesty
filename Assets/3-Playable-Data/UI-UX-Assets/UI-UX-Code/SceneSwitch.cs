@@ -7,6 +7,15 @@ public class SceneSwitch : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.gameObject.CompareTag("Portal1"))
+        {
+            //Destroy(other.gameObject);
+            Debug.Log("Demo End");
+            SceneManager.LoadScene("UI-UX-D1-Menu");
+
+
+        }
+
         if (other.gameObject.CompareTag("Portal2"))
         {
             //Destroy(other.gameObject);
