@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: c7e291a71b80beb458a29b8008c0fc3b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8120302050354792237
+    second: Group 35_0
+  - first:
+      213: 1666935426125736645
+    second: Group 35_1
+  - first:
+      213: 277329667278582269
+    second: Group 35_2
+  - first:
+      213: 3649364678086036096
+    second: Group 35_3
+  - first:
+      213: 690852557253160408
+    second: Group 35_4
+  - first:
+      213: -6509791275317390570
+    second: Group 35_5
+  - first:
+      213: -7267236010101016933
+    second: Group 35_6
+  - first:
+      213: 7776706282987001758
+    second: Group 35_7
+  - first:
+      213: -1198330404696335590
+    second: Group 35_8
+  - first:
+      213: 6898959639206175350
+    second: Group 35_9
+  - first:
+      213: 5108469343397776282
+    second: Group 35_10
+  - first:
+      213: 567774132792893239
+    second: Group 35_11
+  - first:
+      213: 8477419046013194073
+    second: Group 35_12
+  - first:
+      213: -3775442881746001178
+    second: Group 35_13
+  - first:
+      213: -3013508177592135112
+    second: Group 35_14
+  - first:
+      213: 3796646836945153171
+    second: Group 35_15
+  - first:
+      213: 1246429394850478511
+    second: Group 35_16
+  - first:
+      213: 2106713775876659497
+    second: Group 35_17
+  - first:
+      213: -6660602658656145395
+    second: Group 35_18
+  - first:
+      213: 6273636346655416650
+    second: Group 35_19
+  - first:
+      213: -1870457694035891564
+    second: Group 35_20
+  - first:
+      213: -4110309527229363438
+    second: Group 35_21
+  - first:
+      213: -1711981379673383000
+    second: Group 35_22
+  - first:
+      213: -2260326621880187604
+    second: Group 35_23
+  - first:
+      213: 2869333857219104110
+    second: Group 35_24
+  - first:
+      213: -3154537003800789377
+    second: Group 35_25
+  - first:
+      213: -641580137303641884
+    second: Group 35_26
+  - first:
+      213: -4572845129061134196
+    second: Group 35_27
+  - first:
+      213: 8837368110995227897
+    second: Group 35_28
+  - first:
+      213: -607416244023976655
+    second: Group 35_29
+  - first:
+      213: 8868983233156793003
+    second: Group 35_30
+  - first:
+      213: -4706044385148350380
+    second: Group 35_31
+  - first:
+      213: 6687643946238068932
+    second: Group 35_32
+  - first:
+      213: -2562644421328021753
+    second: Group 35_33
+  - first:
+      213: 5501355362502039774
+    second: Group 35_34
+  - first:
+      213: -8660357640048537674
+    second: Group 35_35
+  - first:
+      213: -5979893780765008430
+    second: Group 35_36
+  - first:
+      213: -629006593489655180
+    second: Group 35_37
+  - first:
+      213: -8608772319218204539
+    second: Group 35_38
+  - first:
+      213: 2240795451057690234
+    second: Group 35_39
+  - first:
+      213: -4204963430121503502
+    second: Group 35_40
+  - first:
+      213: 3131839011503987150
+    second: Group 35_41
+  - first:
+      213: -8714769487741083602
+    second: Group 35_42
+  - first:
+      213: -2368304003823060551
+    second: Group 35_43
+  - first:
+      213: -5009811073921943948
+    second: Group 35_44
+  - first:
+      213: 348785994903218173
+    second: Group 35_45
+  - first:
+      213: -3203370632962570346
+    second: Group 35_46
+  - first:
+      213: 6414184957294709204
+    second: Group 35_47
+  - first:
+      213: -3779005896572259793
+    second: Group 35_48
+  - first:
+      213: 1999937401287494637
+    second: Group 35_49
+  - first:
+      213: 308806233346323729
+    second: Group 35_50
+  - first:
+      213: -7339375417734044231
+    second: Group 35_51
+  - first:
+      213: 9031205334117356107
+    second: Group 35_52
+  - first:
+      213: -3583099229512783343
+    second: Group 35_53
+  - first:
+      213: 4209165939555996753
+    second: Group 35_54
+  - first:
+      213: -4280421199308839264
+    second: Group 35_55
+  - first:
+      213: -3469249398636146688
+    second: Group 35_56
+  - first:
+      213: -5681899380500775688
+    second: Group 35_57
+  - first:
+      213: 8595556744729378399
+    second: Group 35_58
+  - first:
+      213: 7572222340023336484
+    second: Group 35_59
+  - first:
+      213: 3006365233802534891
+    second: Group 35_60
+  - first:
+      213: 55060485839375402
+    second: Group 35_61
+  - first:
+      213: -3419686481122608257
+    second: Group 35_62
+  - first:
+      213: 2651194421384611810
+    second: Group 35_63
+  - first:
+      213: -8456973640893601201
+    second: Group 35_64
+  - first:
+      213: -6653120767272114992
+    second: Group 35_65
+  - first:
+      213: -414205501675479566
+    second: Group 35_66
+  - first:
+      213: -5363668300571572391
+    second: Group 35_67
+  - first:
+      213: -4233589817980974895
+    second: Group 35_68
+  - first:
+      213: -6037806238145799785
+    second: Group 35_69
+  - first:
+      213: -7600841169973470035
+    second: Group 35_70
+  - first:
+      213: -1839703701230440757
+    second: Group 35_71
+  - first:
+      213: -6766014417522912916
+    second: Group 35_72
+  - first:
+      213: -6960951398817263628
+    second: Group 35_73
+  - first:
+      213: 9032631371161286006
+    second: Group 35_74
+  - first:
+      213: -4703183758993827213
+    second: Group 35_75
+  - first:
+      213: -5144576267051539471
+    second: Group 35_76
+  - first:
+      213: 4893214942695690016
+    second: Group 35_77
+  - first:
+      213: 1094774681779129916
+    second: Group 35_78
+  - first:
+      213: 416474120941225301
+    second: Group 35_79
+  - first:
+      213: -629788621614040406
+    second: Group 35_80
+  - first:
+      213: 8565418409074659600
+    second: Group 35_81
+  - first:
+      213: 2681272710287312723
+    second: Group 35_82
+  - first:
+      213: -6737019131768871062
+    second: Group 35_83
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Group 35_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 1440
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d959f4a5d5d7f744b4761cae013ddc6
+      internalID: -1356575273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 35_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 1440
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663f4d8eecbaf3c4e9f1ad54c4d8e450
+      internalID: -814505302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 35_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105
+        width: 1440
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d708284494907498c21ac3c0116c6d
+      internalID: 624835556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Group 35_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1440
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e2657073faf8140bdb4fa0a4e30b85
+      internalID: -622837166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4f88f86b9c7c102449f4177ee841f913
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Group 35_0: -1356575273
+      Group 35_1: -814505302
+      Group 35_2: 624835556
+      Group 35_3: -622837166
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
