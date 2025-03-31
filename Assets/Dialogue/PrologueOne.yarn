@@ -1,15 +1,15 @@
-﻿title: PrelogueOne
+﻿title: PrologueOne
 tags:
 ---
 A good game will provide you with a good story, would you like to learn about this one?
 -> YES
-    <<jump PrelogueFirst>>
+    <<jump PrologueFirst>>
 -> NO, SKIP TO LEVEL ONE.
     <<jump SwitchSceneNode>>
 ===
 
 
-title: PrelogueFirst
+title: PrologueFirst
 ---
 NARRATOR: Long ago, the Frog Village thrived in harmony. Bubbles, a father, cherished his tadpoles and his peaceful home. But danger lurked in the shadows.  
 

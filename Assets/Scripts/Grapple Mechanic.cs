@@ -15,6 +15,7 @@ public class GrappleMechanic : MonoBehaviour
     public KeyCode activateKey = KeyCode.E; // e to activate grapple
     public float drag = 1.0f; // air resistance
     public float gravity = 9.81f; // gravity
+    [SerializeField] private AudioSource FrogGrappleStartSound;
 
     private Vector3 initialPosition;
     private bool isDragging = false;
@@ -60,10 +61,12 @@ public class GrappleMechanic : MonoBehaviour
             if (Input.GetKey(KeyCode.A))
             {
                 DragProjectile(Vector3.left);
+                FrogGrappleStartSound.Play();
             }
             else if (Input.GetKey(KeyCode.D))
             {
                 DragProjectile(Vector3.right);
+                FrogGrappleStartSound.Play();
             }
             else if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D))
             {

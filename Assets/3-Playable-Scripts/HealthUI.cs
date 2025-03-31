@@ -1,7 +1,8 @@
-using NUnit.Framework;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Yarn.Unity;
 
 public class HealthUI : MonoBehaviour
 {
@@ -9,7 +10,13 @@ public class HealthUI : MonoBehaviour
     public Sprite fullheartsprite;
     public Sprite emptyheartsprite;
 
+    public DialogueRunner dialogueRunner; 
+
+    public AudioSource audioSource; 
+    public AudioClip lowHealthSound; 
+
     private List<Image> hearts = new List<Image>();
+    private int lastHealth = -1; 
 
     public void SetMaxHearts(int maxHearts)
     {
@@ -24,9 +31,11 @@ public class HealthUI : MonoBehaviour
         {
             Image newHeart = Instantiate(healthPrefab, transform);
             newHeart.sprite = fullheartsprite;
-            newHeart.color = Color.red;
+            newHeart.color = Color.green;
             hearts.Add(newHeart);
         }
+
+        lastHealth = maxHearts;
     }
 
     public void UpdateHearts(int currentHealth)
@@ -35,14 +44,63 @@ public class HealthUI : MonoBehaviour
         {
             if (i < currentHealth)
             {
+                hearts[i].gameObject.SetActive(true);
                 hearts[i].sprite = fullheartsprite;
-                hearts[i].color = Color.red;
+
+                // make hearts red, otherwise white
+                hearts[i].color = (currentHealth < 3) ? Color.red : Color.white;
             }
             else
             {
-                hearts[i].sprite = emptyheartsprite;
-                hearts[i].color = Color.white;
+                StartCoroutine(FadeOutHeart(hearts[i]));
             }
         }
+
+        // Play da low health sound and keep da hearts red if health is below the set threshold
+        if (currentHealth < 3)
+        {
+            if (audioSource != null && lowHealthSound != null && !audioSource.isPlaying)
+            {
+                audioSource.clip = lowHealthSound;
+                audioSource.loop = true;
+                audioSource.Play();
+            }
+        }
+        else
+        {
+            // Stop da sound and reset da heart colors when health is restored
+            if (audioSource != null && audioSource.isPlaying)
+            {
+                audioSource.loop = false;
+                audioSource.Stop();
+            }
+
+           
+            foreach (var heart in hearts)
+            {
+                heart.color = Color.white;
+            }
+        }
+
+        lastHealth = currentHealth;
+    }
+
+
+
+    private IEnumerator FadeOutHeart(Image heart) // WAIT GAG THIS WORKS
+    {
+        float duration = 0.5f;
+        float elapsedTime = 0f;
+        Color startColor = heart.color;
+
+        while (elapsedTime < duration)
+        {
+            elapsedTime += Time.deltaTime;
+            float alpha = Mathf.Lerp(1f, 0f, elapsedTime / duration);
+            heart.color = new Color(startColor.r, startColor.g, startColor.b, alpha);
+            yield return null;
+        }
+
+        heart.gameObject.SetActive(false);
     }
 }

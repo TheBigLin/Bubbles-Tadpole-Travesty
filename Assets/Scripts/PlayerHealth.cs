@@ -97,6 +97,11 @@ public class PlayerHealth : MonoBehaviour
             dialogueRunner.StartDialogue("DamageReaction");
         }
 
+        if (currentHealth <= 2)
+        {
+            dialogueRunner.StartDialogue("LowHealthWarning");
+        }
+
         if (currentHealth <= 0)
         {
             Die();
@@ -105,7 +110,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Die()
     {
-        Debug.Log("Long Live Bubbles...");
+        Debug.Log("Bubbles Died. You did not save the tadpoles and Bubbles now is now depressed... because of You. You caused this. What do you have to say for yourself. This is shameful. You had one job bro...");
         SceneManager.LoadScene("UI-UX-D1-GO");
     }
 
