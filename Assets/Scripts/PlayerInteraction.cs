@@ -12,7 +12,7 @@ public class PlayerInteraction : MonoBehaviour
         playerMovement = GetComponent<PlayerMovement>();
 
 
-        dialogueRunner.onDialogueStart.AddListener(DisableMovement);
+        dialogueRunner.onDialogueStart.AddListener(EnableMovement);
         dialogueRunner.onDialogueComplete.AddListener(EnableMovement);
     }
 
