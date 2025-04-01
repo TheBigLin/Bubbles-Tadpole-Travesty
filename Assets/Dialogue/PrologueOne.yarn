@@ -1,23 +1,24 @@
 ﻿title: PrologueOne
 tags:
 ---
-A good game will provide you with a good story, would you like to learn about this one?
+Hey there! I'm Lizdini! Since you're here, want to hear a story?
 -> YES
     <<jump PrologueFirst>>
--> NO, SKIP TO LEVEL ONE.
+-> NO, CONTINUE TO LEVEL ONE.
     <<jump SwitchSceneNode>>
 ===
 
 
 title: PrologueFirst
 ---
-NARRATOR: Long ago, the Frog Village thrived in harmony. Bubbles, a father, cherished his tadpoles and his peaceful home. But danger lurked in the shadows.  
+Long ago, the Frog Village thrived in harmony. Bubbles, a father, cherished his tadpoles and his peaceful home. But danger lurked in the shadows.  
 
-NARRATOR: One night, disaster struck. A vengeful alligator snapping turtle stormed the village. Once a pet, abandoned, he hated Bubbles. In a cruel act of revenge, he stole his tadpoles, forcing The Cheese King and his rat army to help.  
+One day, disaster struck. A vengeful alligator snapping turtle stormed the village. Once a pet, abandoned, he hated Bubbles. In a cruel act of revenge, he stole his tadpoles, forcing The Cheese King and his rat army to help.  
 
-NARRATOR: Now, Bubbles must face the dangers of the swamp, battling predators and pushing forward with one goal. To save his children. He won’t be alone. A trusted friend, swears to help however he can.  
+Now, Bubbles must face the dangers of the swamp, battling predators and pushing forward with one goal. To save his children. He won’t be alone. A trusted friend, myself, swears to help however he can.  
 
-NARRATOR: The fate of the village—and the tadpoles—rests in Bubbles' hands.
+The fate of the village and the tadpoles now rests in your hands. 
+
     <<jump SwitchSceneNode>>
 === 
 
