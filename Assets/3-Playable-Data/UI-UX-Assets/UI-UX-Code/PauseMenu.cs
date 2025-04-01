@@ -21,7 +21,7 @@ public class PauseMenu : MonoBehaviour
             {
                 Time.timeScale = 1;
                 PauseTheGame = false;
-                PauseMenuUX.SetActive(false);
+                PauseMenuUX.SetActive(true);
             }
             //pause
             else
@@ -29,7 +29,7 @@ public class PauseMenu : MonoBehaviour
                 //Pause the 
                 Time.timeScale = 0;
                 PauseTheGame = true;
-                PauseMenuUX.SetActive(true);
+                PauseMenuUX.SetActive(false);
             }
         }
     }
