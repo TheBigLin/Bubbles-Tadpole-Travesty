@@ -27,6 +27,19 @@ public class UIButton : MonoBehaviour
     {
         SceneManager.LoadScene("LevelOne");
     }
+        public void ResetGame2()
+    {
+        SceneManager.LoadScene("LevelTwo");
+    }
+        public void ResetGame3()
+    {
+        SceneManager.LoadScene("LeveThree");
+    }
+
+        public void ResetGameDemo()
+    {
+        SceneManager.LoadScene("Demo-Scene");
+    }
     public void ExitFromCredit() 
     {
         SceneManager.LoadScene("UI-UX-D1-Menu");
@@ -37,6 +50,11 @@ public class UIButton : MonoBehaviour
     {
         SceneManager.LoadScene("UI-UX-D1-Menu");
     }
+        public void QuitBackToMainmenu1()
+    {
+        SceneManager.LoadScene("UI-UX-D1-Menu1");
+    }
+
 
     public void ExitGame() 
     {
