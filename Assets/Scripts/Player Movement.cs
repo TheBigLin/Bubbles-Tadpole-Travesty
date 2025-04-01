@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private AudioSource jumpSound;
     [SerializeField] private AudioSource runningSound;
+    [SerializeField] private AudioSource groundSound;
     [SerializeField] private DialogueRunner dialogueRunner; 
 
     private void Start()
@@ -24,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
         
         dialogueRunner.onDialogueComplete.AddListener(EnableMovement);
     }
-
+    private bool wasGrounded = true;
     void Update()
     {
         if (!canMove) 
@@ -33,6 +34,15 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat("magnitude", 0);
             return;
         }
+
+        bool isCurrentlyGrounded = IsGrounded();
+
+        if (!wasGrounded && isCurrentlyGrounded)
+        {
+            groundSound.Play();
+        }
+
+        wasGrounded = isCurrentlyGrounded;
 
         horizontal = Input.GetAxisRaw("Horizontal");
 
@@ -56,6 +66,8 @@ public class PlayerMovement : MonoBehaviour
         {
             lastPos = transform.position;
         }
+
+
     }
 
     private void FixedUpdate()
@@ -118,7 +130,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Respawn()
     {
-        float respawnOffsetX = 1.5f;
+        float respawnOffsetX = 2.0f;
         float respawnOffsetY = 1f;
         float moveDirection = rb.velocity.x >= 0 ? -1 : 1;
 

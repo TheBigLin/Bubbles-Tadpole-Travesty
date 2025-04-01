@@ -14,6 +14,8 @@ public class ToadKing : MonoBehaviour
 
     public Slider healthBar;
     public GameObject Toadking;
+    public AudioSource bossMusic; // Boss music
+    public AudioSource backgroundMusic; // Background music
 
     public Transform player;
     public float jumpForce = 10f;
@@ -28,6 +30,7 @@ public class ToadKing : MonoBehaviour
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
 
+    private bool hasStartedMusic = false; 
     public bool isDead;
 
     private void Start()
@@ -38,22 +41,7 @@ public class ToadKing : MonoBehaviour
         {
             healthBar.maxValue = health;
             healthBar.value = health;
-        }
-    }
-
-    public void TakeDamage(int damage)
-    {
-        health -= damage;
-
-        if (healthBar != null)
-        {
-            healthBar.value = health;
-        }
-
-        if (health <= 0)
-        {
-            Destroy(Toadking);
-            Destroy(healthBar.gameObject);
+            healthBar.gameObject.SetActive(false); 
         }
     }
 
@@ -64,6 +52,28 @@ public class ToadKing : MonoBehaviour
         if (player != null && isGrounded)
         {
             float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+
+            
+            if (distanceToPlayer <= jumpTriggerRange && !hasStartedMusic)
+            {
+                if (healthBar != null)
+                {
+                    healthBar.gameObject.SetActive(true);
+                }
+
+                
+                if (backgroundMusic != null && backgroundMusic.isPlaying)
+                {
+                    backgroundMusic.Stop();
+                }
+
+                if (bossMusic != null && !bossMusic.isPlaying)
+                {
+                    bossMusic.Play();
+                }
+
+                hasStartedMusic = true;
+            }
 
             if (distanceToPlayer <= jumpTriggerRange && jumpCooldownTimer <= 0f)
             {
@@ -80,6 +90,33 @@ public class ToadKing : MonoBehaviour
         if (timeBtwDamage > 2)
         {
             timeBtwDamage -= Time.deltaTime;
+        }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+
+        if (healthBar != null)
+        {
+            healthBar.value = health;
+        }
+
+        if (health <= 0)
+        {
+            if (bossMusic != null && bossMusic.isPlaying)
+            {
+                bossMusic.Stop(); 
+            }
+
+           
+            if (backgroundMusic != null)
+            {
+                backgroundMusic.Play();
+            }
+
+            Destroy(Toadking);
+            Destroy(healthBar.gameObject);
         }
     }
 
@@ -120,8 +157,3 @@ public class ToadKing : MonoBehaviour
         }
     }
 }
-
-
-
-
-
