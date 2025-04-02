@@ -80,7 +80,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void TeleportPlayer()
     {
-        Vector3 safePosition = new Vector3(transform.position.x - 30f, transform.position.y, transform.position.z);
+        Vector3 safePosition = new Vector3(transform.position.x - 5f, transform.position.y, transform.position.z);
         transform.position = safePosition;
     }
 

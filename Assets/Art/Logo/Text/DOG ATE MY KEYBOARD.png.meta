@@ -100,7 +100,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -126,7 +126,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -601,7 +601,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -610,26 +610,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      DOG ATE MY KEYBOARD_0: -2656176445672476806
-      DOG ATE MY KEYBOARD_1: 4013092659102566109
-      DOG ATE MY KEYBOARD_10: 6293388597731668745
-      DOG ATE MY KEYBOARD_11: -857253191623621760
-      DOG ATE MY KEYBOARD_12: 7176945327533527182
-      DOG ATE MY KEYBOARD_13: 5510097887391775906
-      DOG ATE MY KEYBOARD_14: -454355764348767441
-      DOG ATE MY KEYBOARD_15: 188940543881176609
-      DOG ATE MY KEYBOARD_16: 6223666017858853336
-      DOG ATE MY KEYBOARD_17: -7912335873046862421
-      DOG ATE MY KEYBOARD_18: 5232224744636610260
-      DOG ATE MY KEYBOARD_2: -1910676265738430367
-      DOG ATE MY KEYBOARD_3: -3409765603159806962
-      DOG ATE MY KEYBOARD_4: -4708056778557674595
-      DOG ATE MY KEYBOARD_5: 610146303215571895
-      DOG ATE MY KEYBOARD_6: 2869232751971248983
-      DOG ATE MY KEYBOARD_7: 4257807873292924574
-      DOG ATE MY KEYBOARD_8: 1182414668772002235
-      DOG ATE MY KEYBOARD_9: 4159031953163350164
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
