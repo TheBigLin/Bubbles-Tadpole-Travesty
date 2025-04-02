@@ -28,8 +28,9 @@ public class SceneSwitch : MonoBehaviour
         if (other.gameObject.CompareTag("Portal3"))
         {
             //Destroy(other.gameObject);
-            Debug.Log("Level-Three");   
+            Debug.Log("Level-Three");
             //Start-lEVEL-tHREE
+            SceneManager.LoadScene("UI-UX-D1-Credits");
             StartCoroutine(loading1());
         }
     }

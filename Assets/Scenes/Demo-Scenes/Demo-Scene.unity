@@ -201796,7 +201796,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5493353504149747660, guid: 7faa0e9f73e3d9e43834a1f78eb379b2, type: 3}
       propertyPath: m_TagString
-      value: Portal1
+      value: Portal3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
