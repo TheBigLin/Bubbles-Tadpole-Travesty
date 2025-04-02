@@ -17,7 +17,7 @@ public class SceneSwitcher : MonoBehaviour
         if (nodeName == "SwitchSceneNode")
         {
             Debug.Log("Switching to the next scene...");
-            SceneManager.LoadScene("Demo-Scene"); // target scene name
+            SceneManager.LoadScene("Loading-Screen-Play"); // target scene name
         }
     }
 

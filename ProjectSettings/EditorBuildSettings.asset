@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Demo-Scenes/Demo-Scene.unity
     guid: bb74b55577f83944a80535e113810f8d
   - enabled: 1
+    path: Assets/Scenes/Demo-Scenes/Loading-Screen-Play.unity
+    guid: 962b30f24091dc94ead9a4a91682ccee
+  - enabled: 1
     path: Assets/Scenes/Demo-Scenes/UI-UX-D1-Menu1.unity
     guid: 1396310c85a36ef479fee400e304410e
   - enabled: 1

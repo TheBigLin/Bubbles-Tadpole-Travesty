@@ -192622,7 +192622,7 @@ Transform:
   m_GameObject: {fileID: 1115058069}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -701.08, y: -447.4, z: 4.4012647}
+  m_LocalPosition: {x: -699.76, y: -447.4, z: 4.4012647}
   m_LocalScale: {x: 27.82, y: 15.8, z: 10.11}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -197195,7 +197195,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.04, y: -100}
+  m_AnchoredPosition: {x: -0.04, y: -74}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1401252643
@@ -200514,7 +200514,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1638308880
 Transform:
   m_ObjectHideFlags: 0
@@ -200656,7 +200656,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1653216292}
         m_TargetAssemblyTypeName: UIButton, Assembly-CSharp
-        m_MethodName: QuitBackToMainmenu
+        m_MethodName: QuitBackToMainmenu1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
