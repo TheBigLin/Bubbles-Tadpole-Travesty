@@ -64,13 +64,13 @@ public class ToadKing : MonoBehaviour
                 
                 if (backgroundMusic != null && backgroundMusic.isPlaying)
                 {
-                    backgroundMusic.Stop();
+                   // backgroundMusic.Stop();
                 }
 
-                if (bossMusic != null && !bossMusic.isPlaying)
-                {
-                    bossMusic.Play();
-                }
+               //if (bossMusic != null && !bossMusic.isPlaying)
+               //{
+               //    bossMusic.Play();
+               ///}
 
                 hasStartedMusic = true;
             }
