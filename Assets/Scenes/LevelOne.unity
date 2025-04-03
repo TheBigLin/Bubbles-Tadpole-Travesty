@@ -5614,6 +5614,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PauseTheGame: 0
   PauseMenuUX: {fileID: 505759753}
+  Bu: {fileID: 0}
+  Camera2: {fileID: 0}
 --- !u!1 &385671708
 GameObject:
   m_ObjectHideFlags: 0
@@ -6244,7 +6246,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: e170ec8d7e2f44146aebe0ce465e1ba4, type: 3}
   m_Resource: {fileID: 8300000, guid: e170ec8d7e2f44146aebe0ce465e1ba4, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.015
+  m_Volume: 0.065
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -204756,7 +204758,6 @@ MonoBehaviour:
   animator: {fileID: 1993980729}
   jumpSound: {fileID: 1993980732}
   runningSound: {fileID: 1993980733}
-  groundSound: {fileID: 1993980738}
   dialogueRunner: {fileID: 133370846}
 --- !u!60 &1993980721
 PolygonCollider2D:
