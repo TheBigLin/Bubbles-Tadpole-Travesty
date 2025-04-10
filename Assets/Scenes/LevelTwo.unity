@@ -7500,10 +7500,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fly
       objectReference: {fileID: 0}
-    - target: {fileID: 5921723963012809717, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 8661926810402704278, guid: 45dd92d1433dfb242970e0f383552de3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -127.75
@@ -9207,7 +9203,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: eeb70378e0233c440808464254ff5e32, type: 3}
   m_Resource: {fileID: 8300000, guid: eeb70378e0233c440808464254ff5e32, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.596
+  m_Volume: 0.391
   m_Pitch: 1.98
   Loop: 0
   Mute: 0
@@ -10442,7 +10438,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 82d55ba297f557e4094ea2a6abcd97d7, type: 3}
   m_Resource: {fileID: 8300000, guid: 82d55ba297f557e4094ea2a6abcd97d7, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.3
+  m_Volume: 0.145
   m_Pitch: 0.79
   Loop: 1
   Mute: 0
@@ -11074,6 +11070,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PauseTheGame: 0
   PauseMenuUX: {fileID: 115225871}
+  Bu: {fileID: 0}
+  Camera2: {fileID: 0}
 --- !u!4 &1364438282
 Transform:
   m_ObjectHideFlags: 0
@@ -163752,6 +163750,9 @@ MonoBehaviour:
   healthPrefab: {fileID: 4598856657076922435, guid: 00368c2844382ef4da004cb3b872d074, type: 3}
   fullheartsprite: {fileID: -4269518220602754116, guid: f64628ca018346a468fe8b8572a718ef, type: 3}
   emptyheartsprite: {fileID: -4269518220602754116, guid: f64628ca018346a468fe8b8572a718ef, type: 3}
+  dialogueRunner: {fileID: 0}
+  audioSource: {fileID: 0}
+  lowHealthSound: {fileID: 0}
 --- !u!114 &1842059053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164303,7 +164304,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 39a9c25e49e93224d86d4b6a608cf450, type: 3}
   m_Resource: {fileID: 8300000, guid: 39a9c25e49e93224d86d4b6a608cf450, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.411
+  m_Volume: 0.116
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -164400,7 +164401,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: eae60da96e92d884ab17d76dd06ff3d0, type: 3}
   m_Resource: {fileID: 8300000, guid: eae60da96e92d884ab17d76dd06ff3d0, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.851
+  m_Volume: 0.447
   m_Pitch: 0.9
   Loop: 1
   Mute: 0
@@ -165904,6 +165905,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 802783694}
+  bossSound: {fileID: 0}
 --- !u!61 &2084433240
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -166581,14 +166583,6 @@ PrefabInstance:
     - target: {fileID: 6711088314991328272, guid: 8ba57af60ebc0e84385dc7b3f17fe1ba, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8781176964506326907, guid: 8ba57af60ebc0e84385dc7b3f17fe1ba, type: 3}
-      propertyPath: m_Size.x
-      value: 0.97773063
-      objectReference: {fileID: 0}
-    - target: {fileID: 8781176964506326907, guid: 8ba57af60ebc0e84385dc7b3f17fe1ba, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.01250881
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

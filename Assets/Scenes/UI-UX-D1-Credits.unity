@@ -2247,7 +2247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0beab32b59c19d4283b7a299b5a6e60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: UI-UX-D1-Menu1
+  sceneToLoad: UI-UX-D1-Menu
   keyToPress: 32
 --- !u!4 &2140032991
 Transform:

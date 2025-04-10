@@ -36,10 +36,10 @@ public class UIButton : MonoBehaviour
         SceneManager.LoadScene("LeveThree");
     }
 
-        public void ResetGameDemo()
-    {
-        SceneManager.LoadScene("Demo-Scene");
-    }
+       public void ResetGameDemo()
+   {
+       SceneManager.LoadScene("LevelOne");
+   }
     public void ExitFromCredit() 
     {
         SceneManager.LoadScene("UI-UX-D1-Menu");
@@ -52,7 +52,7 @@ public class UIButton : MonoBehaviour
     }
         public void QuitBackToMainmenu1()
     {
-        SceneManager.LoadScene("UI-UX-D1-Menu1");
+        SceneManager.LoadScene("UI-UX-D1-Menu");
     }
 
 
