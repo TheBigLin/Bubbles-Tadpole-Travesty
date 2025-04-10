@@ -12,6 +12,6 @@ public class LoadingScreenDemo : MonoBehaviour
     IEnumerator LevelDemo()
     {
         yield return new WaitForSeconds(7.0f);
-        SceneManager.LoadScene("Demo-Scene");
+        SceneManager.LoadScene("LevelOne");
     }
 }
