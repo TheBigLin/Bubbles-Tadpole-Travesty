@@ -166494,10 +166494,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1151559914061512790, guid: 8ba57af60ebc0e84385dc7b3f17fe1ba, type: 3}
-      propertyPath: m_TagString
-      value: Top
-      objectReference: {fileID: 0}
     - target: {fileID: 1503383621674164063, guid: 8ba57af60ebc0e84385dc7b3f17fe1ba, type: 3}
       propertyPath: player
       value: 
@@ -166509,14 +166505,6 @@ PrefabInstance:
     - target: {fileID: 6079707875254881787, guid: 8ba57af60ebc0e84385dc7b3f17fe1ba, type: 3}
       propertyPath: m_Name
       value: Newt
-      objectReference: {fileID: 0}
-    - target: {fileID: 6079707875254881787, guid: 8ba57af60ebc0e84385dc7b3f17fe1ba, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6079707875254881787, guid: 8ba57af60ebc0e84385dc7b3f17fe1ba, type: 3}
-      propertyPath: m_TagString
-      value: WaspDamage
       objectReference: {fileID: 0}
     - target: {fileID: 6711088314991328272, guid: 8ba57af60ebc0e84385dc7b3f17fe1ba, type: 3}
       propertyPath: m_LocalPosition.x
@@ -166557,26 +166545,6 @@ PrefabInstance:
     - target: {fileID: 6711088314991328272, guid: 8ba57af60ebc0e84385dc7b3f17fe1ba, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8781176964506326907, guid: 8ba57af60ebc0e84385dc7b3f17fe1ba, type: 3}
-      propertyPath: m_Size.x
-      value: 1.0019528
-      objectReference: {fileID: 0}
-    - target: {fileID: 8781176964506326907, guid: 8ba57af60ebc0e84385dc7b3f17fe1ba, type: 3}
-      propertyPath: m_Size.y
-      value: 0.24824998
-      objectReference: {fileID: 0}
-    - target: {fileID: 8781176964506326907, guid: 8ba57af60ebc0e84385dc7b3f17fe1ba, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8781176964506326907, guid: 8ba57af60ebc0e84385dc7b3f17fe1ba, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.0057905912
-      objectReference: {fileID: 0}
-    - target: {fileID: 8781176964506326907, guid: 8ba57af60ebc0e84385dc7b3f17fe1ba, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.014707964
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
