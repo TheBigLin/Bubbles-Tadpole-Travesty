@@ -30,7 +30,7 @@ public class SceneSwitch : MonoBehaviour
             //Destroy(other.gameObject);
             Debug.Log("Level-Three");
             //Start-lEVEL-tHREE
-            SceneManager.LoadScene("LevelThree");
+            
             StartCoroutine(loading1());
         }
     }
