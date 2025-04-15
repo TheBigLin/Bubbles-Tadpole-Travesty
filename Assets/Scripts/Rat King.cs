@@ -21,6 +21,7 @@ public class RatKing : MonoBehaviour
     private bool canDash = true;
     private GameObject player;
     public GameObject Ratking;
+    public GameObject Barrier;
 
     private void Start()
     {
@@ -49,6 +50,7 @@ public class RatKing : MonoBehaviour
         {
             Destroy(Ratking);
             Destroy(healthBar.gameObject);
+            Destroy(Barrier);
         }
     }
 

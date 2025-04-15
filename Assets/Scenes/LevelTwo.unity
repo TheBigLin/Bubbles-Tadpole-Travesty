@@ -1135,6 +1135,7 @@ MonoBehaviour:
   dashCooldown: 5
   playerKnockback: 7
   Ratking: {fileID: 124888558}
+  Barrier: {fileID: 238631739}
 --- !u!61 &124888566
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1690,7 +1691,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.040601626}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1700,7 +1701,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 1.081203}
   m_EdgeRadius: 0
 --- !u!212 &238631741
 SpriteRenderer:
@@ -6146,7 +6147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -166687,6 +166688,7 @@ MonoBehaviour:
   dashCooldown: 5
   playerKnockback: 7
   Ratking: {fileID: 124888558}
+  Barrier: {fileID: 0}
 --- !u!58 &2132928855
 CircleCollider2D:
   m_ObjectHideFlags: 0

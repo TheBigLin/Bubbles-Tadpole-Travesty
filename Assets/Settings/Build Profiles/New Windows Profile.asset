@@ -18,16 +18,12 @@ MonoBehaviour:
   m_PlatformBuildProfile:
     rid: 3377816683545100288
   m_Scenes:
-  - m_enabled: 0
-    m_path: Assets/Scenes/SampleScene.unity
   - m_enabled: 1
     m_path: Assets/Scenes/UI-UX-D1-Menu.unity
   - m_enabled: 1
     m_path: Assets/Scenes/UI-UX-D1-Credits.unity
   - m_enabled: 1
     m_path: Assets/Scenes/UI-UX-D1-GO.unity
-  - m_enabled: 1
-    m_path: Assets/A.unity
   - m_enabled: 1
     m_path: Assets/Scenes/Loading-Screen-2.unity
   - m_enabled: 1
@@ -36,8 +32,6 @@ MonoBehaviour:
     m_path: Assets/Scenes/Loading-Screen-3.unity
   - m_enabled: 1
     m_path: Assets/Scenes/LevelThree.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/Prelogue.unity
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
     m_Settings: []

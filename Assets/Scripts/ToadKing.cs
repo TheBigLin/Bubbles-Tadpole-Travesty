@@ -14,6 +14,7 @@ public class ToadKing : MonoBehaviour
 
     public Slider healthBar;
     public GameObject Toadking;
+    public GameObject Barrier;
     public AudioSource bossMusic; // Boss music
     public AudioSource backgroundMusic; // Background music
 
@@ -117,6 +118,7 @@ public class ToadKing : MonoBehaviour
 
             Destroy(Toadking);
             Destroy(healthBar.gameObject);
+            Destroy(Barrier);
         }
     }
 
